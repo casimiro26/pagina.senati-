@@ -1,0 +1,127 @@
+body {
+          margin: 0;
+          font-family: Arial, sans-serif;
+          background: #f0f2f5;
+        }
+        
+        .fb-header {
+          background: #1877f2;
+          color: white;
+          padding: 0.8rem 2rem;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+        }
+        
+        .fb-header .logo {
+          font-size: 1.6rem;
+          font-weight: bold;
+        }
+        
+        .fb-header input {
+          padding: 0.5rem;
+          border: none;
+          border-radius: 20px;
+          width: 250px;
+        }
+        
+        .container {
+          display: flex;
+          padding: 1rem;
+        }
+        
+        /* Menú izquierdo */
+        .left-sidebar {
+          width: 20%;
+          padding-right: 1rem;
+          font-size: 0.9rem;
+        }
+        
+        .left-sidebar ul {
+          list-style: none;
+          padding-left: 0;
+        }
+        
+        .left-sidebar li {
+          margin: 0.5rem 0;
+        }
+        
+        /* Feed central */
+        .feed {
+          width: 60%;
+        }
+        
+        .status-box {
+          background: white;
+          padding: 1rem;
+          border-radius: 8px;
+          margin-bottom: 1rem;
+        }
+        
+        .status-box input {
+          width: 100%;
+          padding: 0.5rem;
+          border-radius: 20px;
+          border: 1px solid #ccc;
+        }
+        
+        .status-options {
+          margin-top: 0.5rem;
+          display: flex;
+          justify-content: space-between;
+          font-size: 0.9rem;
+        }
+        
+        .story-section {
+          display: flex;
+          gap: 10px;
+          margin-bottom: 1rem;
+        }
+        
+        .story {
+          background: #ddd;
+          padding: 1rem;
+          border-radius: 8px;
+          width: 100px;
+          text-align: center;
+          font-size: 0.8rem;
+        }
+        
+        .post {
+          background: white;
+          padding: 1rem;
+          border-radius: 8px;
+          margin-bottom: 1rem;
+        }
+        
+        .post img {
+          width: 100%;
+          border-radius: 8px;
+          margin-top: 0.5rem;
+        }
+        
+        /* Lateral derecho */
+        .right-sidebar {
+          width: 20%;
+          padding-left: 1rem;
+          font-size: 0.9rem;
+        }
+        
+        .right-sidebar h4 {
+          margin-bottom: 0.3rem;
+        }
+        
+        .right-sidebar p {
+          margin: 0.2rem 0;
+        }
+        
+        button {
+          padding: 0.3rem 0.6rem;
+          margin: 0.2rem;
+          background: #1877f2;
+          color: white;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+        }
+        

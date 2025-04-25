@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Perfil Estilo Facebook</title>
+  <link rel="stylesheet" href="indece.css" />
+</head>
+<body>
+  <header class="fb-header">
+    <div class="logo">facebook</div>
+    <input type="text" placeholder="Buscar en Facebook..." />
+  </header>
+
+  <main class="profile-page">
+    <div class="cover-photo">
+      <button class="edit-cover">📷Agregar foto de portada</button>
+    </div>
+
+    <div class="profile-main">
+      <div class="profile-pic">
+        <img src="perci.jpeg" alt="Foto de perfil" />
+      </div>
+      <div class="profile-info">
+        <h1 id="name">Jhan-r Casimiro</h1>
+        <p class="friends">342 amigos</p>
+        <div class="profile-buttons">
+          <button>+ Agregar a historia</button>
+          <button>✏️ Editar perfil</button>
+        </div>
+      </div>
+    </div>
+
+    <nav class="tabs">
+      <ul>
+          <a href="indice2.html" class="nav-btn">Volver al Perfil</a>
+        <li class="active">Publicaciones</li>
+        <li>Información</li>
+        <li>Amigos</li>
+        <li>Fotos</li>
+        <li>Videos</li>
+        <li>Más</li>
+      </ul>
+    </nav>
+
+    <section class="bio-section">
+      <div class="bio">
+        <h2>Detalles</h2>
+        <p id="bio">Vive en Huanuco</p>
+        <p id="bio">Estudio en senati</p>
+        <p id="bio">Deporte futbol</p>
+        <p id="bio">Estado civil Soltero</p>
+        <button onclick="changeBio()">✏️ Cambiar bio</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="indice.js"></script>
+</body>
+</html>
